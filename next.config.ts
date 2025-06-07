@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  transpilePackages: ['@/components'],
 };
 
 export default nextConfig;
